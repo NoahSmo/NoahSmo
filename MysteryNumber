@@ -1,0 +1,163 @@
+from math import*
+from time import*
+from random import*
+import tkinter as tk
+
+app = tk.Tk()
+
+app.config(bg="light green")
+
+#On défini les variables
+guess = 0
+essais = 5
+un = tk.IntVar()
+un.set(1)
+#temps = 0
+chiffre = int(randrange(101));
+
+#Création du fond de l'app
+
+canvas = tk.Canvas(app, width = 500, height = 400,  relief = 'raised')
+canvas.pack()
+canvas.config(bg="light green")
+
+
+
+#def newgame():
+	#guess = 0
+	#essais = 5
+	#temps = 0
+	#chiffre = int(randrange(101));
+	#green = tk.Label(app, width = 20, height = 1, bg="light green")
+	#canvas.create_window(250, 250, window=green)
+	#compteur = tk.Label(app, text="Nombre d'essai restants : " + str(essais),bg="light green")
+	#canvas.create_window(375, 75, window=compteur)
+
+
+#newgame()
+
+
+def calcul():
+	guess = int(saisie.get())
+	compteur()
+	greenscreen()
+
+	if guess == chiffre :
+		rep = tk.Label(app, text="C'est ça ! Vous avez trouvé le numéro, c'était : "+ str(chiffre),bg="light green")
+		canvas.create_window(250, 250, window=rep)
+
+	#elif temps > 60 :
+		#rep = tk.Label(app, text="Trop tard ! Le numéro à trouver était : "+ str(chiffre),bg="light green")
+		#canvas.create_window(250, 250, window=rep)
+
+	elif essais < 0 :
+		rep = tk.Label(app, text="C'est perdu ! Le numéro à trouver était : "+ str(chiffre),bg="light green")
+		canvas.create_window(250, 250, window=rep)
+
+	elif guess < chiffre :
+		rep = tk.Label(app, text="C'est plus !",bg="light green")
+		canvas.create_window(250, 250, window=rep)
+
+	elif guess > chiffre :
+		rep = tk.Label(app, text="C'est moins !",bg="light green")
+		canvas.create_window(250, 250, window=rep)
+
+
+#Création du titre
+
+titre = tk.Label(app, text="J'ai choisis un nombre entre 1 et 100, retrouve le !", bg="light green")
+titre.config(font=('helvetica', 14))
+canvas.create_window(250, 25, window=titre)
+
+#Création de la fenêtre d'instruction
+
+rep = tk.Label(app, text="Trouvez l'entier en moins d'une minute !", bg="light green")
+rep.config(font=('helvetica', 10))
+canvas.create_window(250, 120, window=rep)
+
+#Création du champ de saisie
+
+saisie = tk.Entry(app)
+canvas.create_window(250, 150, window=saisie)
+
+#Initialisation du compteur de tentatives (Non Fonctionnel)
+
+def compteur():
+	compteur = tk.Label(app, text="Nombre d'essais restants : " + str(essais), bg="light green")
+	canvas.create_window(375, 75, window=compteur)
+compteur()
+
+#Initialisation du chrono ( Non Fonctionnel )
+
+
+#chrono = tk.Label(app, text =" Vous avez " + str(time) + " secondes !", bg="light green")
+#canvas.create_window(25, 75, window=chrono)
+
+
+#Création de l'écran vert
+
+def greenscreen():
+	green = tk.Label(app, width = 20, height = 1, bg="light green")
+	canvas.create_window(250, 250, window=green)
+
+
+#Configuration du bouton Valider
+
+btn1 = tk.Button(text='Valider', command=calcul)
+canvas.create_window(250, 180, window=btn1)
+
+#Configuration du bouton Nouvelle Partie
+
+#btn2 = tk.Button(text='Nouvelle Partie', command=newgame)
+#canvas.create_window(250, 210, window=btn2)
+
+
+app.mainloop()
+
+
+
+
+
+
+
+
+
+
+print("Bienvenue sur le célèbre jeu du juste prix, tu dois deviner le prix auquel je pense, il se situe entre 1 et 100 ");
+
+#On choisit un nombre aléatoire entre 1 et 100
+chiffre = int(randrange(101));
+
+#print(chiffre) 
+
+#On défini les variables
+guess = 0
+essais = 0
+temps = 0
+
+while True :
+	temps = perf_counter()
+	guess = int(input("Veuillez entrer un numéro : "));
+	essais += 1 
+
+	#print("Nombre d'essais "+ str(essais))
+	#print("Temps : "+ str(temps))
+
+	if guess == chiffre :
+		print("C'est ça !")
+		print("Vous avez trouvé le numéro, c'était : "+ str(chiffre))
+		break
+	elif temps > 60 :
+		print("Trop tard !")
+		print("Le numéro à trouver était : "+ str(chiffre))
+		break
+	elif essais > 5 :
+		print("C'est perdu !")
+		print("Le numéro à trouver était : "+ str(chiffre))
+		break
+	elif guess < chiffre :
+		print("C'est plus !")
+	elif guess > chiffre :
+		print("C'est moins !")
+
+	
