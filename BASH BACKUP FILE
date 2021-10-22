@@ -1,0 +1,18 @@
+#!/usr/bin/bash
+
+today=$(date +%Y-%m-%d)
+FQDN=blog.di21.fr
+destination_backup=/backup
+backup_file=$destination_backup/backup_$FQDN"_"$today.tar.gz
+vhost=blog.conf
+website_file=/var/www/$FQDN
+dbname=blog
+dblogin=blog
+dbpwd=blog
+dbbackupfile=$destination_backup/export_$dbname"_".sql
+
+mysqldump -u $dblogin -p$dbpw $dbname > $dbbackupfile
+
+tar -czvf $backup_file $vhost $website_files $dbbackupfile
+
+rm $dbbackupfile
