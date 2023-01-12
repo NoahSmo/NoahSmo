@@ -1,5 +1,6 @@
-<h2><img src="https://img.icons8.com/nolan/512/google-code.png" height="35"/> Hello there, my name is Noah </h2> 
-![](https://komarev.com/ghpvc/?username=NoahSmo&color=blueviolet&style=flat-square)
+### <img src="https://img.icons8.com/nolan/512/google-code.png" height="20"/> Hello there, my name is Noah
+
+![](https://komarev.com/ghpvc/?username=noahsmo&color=blueviolet&style=flat-square)
 
 <p> Currently working at N'ine as a C# Dev</p>
 
