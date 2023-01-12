@@ -1,4 +1,19 @@
-### Hi there 👋
+<h2><img src="https://img.icons8.com/nolan/512/google-code.png" height="35"/> Hello there, my name is Noah </h2> 
+![](https://komarev.com/ghpvc/?username=NoahSmo&color=blueviolet&style=flat-square)
+
+<p> Currently working at N'ine as a C# Dev</p>
+
+<p> ✨ I'm making games on my free time ✨</p>
+
+### 💻 Main Technos
+
+<img src="https://icones8.fr/icon/55205/c-sharp-logo" height="25"/> C#
+<img src="https://icones8.fr/icon/Rc0Xn5AtE8kX/python" height="25"/> C#
+
+
+[github]: https://github.com/noahSmo
+[linkedin]: https://linkedin.com/in/noah-petel
+[mail]: mailto://noah.petel@gmail.com
 
 <!--
 **NoahSmo/NoahSmo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
