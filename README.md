@@ -8,8 +8,14 @@
 
 ### 💻 Main Technos
 
-<img src="https://icones8.fr/icon/55205/c-sharp-logo" height="25"/> C#
-<img src="https://icones8.fr/icon/Rc0Xn5AtE8kX/python" height="25"/> C#
+# <img src="https://icones8.fr/icon/55205/c-sharp-logo" height="25"/> C#
+
+# <img src="https://icones8.fr/icon/Rc0Xn5AtE8kX/python" height="25"/> Python
+
+# <img src="https://icones8.fr/icon/Rc0Xn5AtE8kX/python" height="25"/> Php
+# <img src="https://icones8.fr/icon/Rc0Xn5AtE8kX/python" height="25"/> Laravel
+
+
 
 
 [github]: https://github.com/noahSmo
