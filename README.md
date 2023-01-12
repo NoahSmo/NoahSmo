@@ -2,13 +2,14 @@
 
 ![](https://komarev.com/ghpvc/?username=noahsmo&color=blueviolet&style=flat-square)
 
-<p> Currently working at N'ine as a C# Dev</p>
+<p> Currently working at N'ine as a C# and VueJs Dev</p>
 
 <p> ✨ I'm making games on my free time ✨</p>
 
 ## 💻 Main Technos
 
 #### <img src="https://img.icons8.com/color/512/c-sharp-logo.png" height="20"/> C#
+#### <img src="https://img.icons8.com/windows/512/vuejs.png" height="20"/> Vue.js
 
 
 #### <img src="https://img.icons8.com/color/512/html-5.png" height="20"/> HTML
