@@ -1,4 +1,4 @@
-# <img src="https://img.icons8.com/nolan/512/google-code.png" height="20"/> Hello there, my name is Noah
+# <img src="https://img.icons8.com/nolan/512/google-code.png" height="30"/> Hello there, my name is Noah
 
 ![](https://komarev.com/ghpvc/?username=noahsmo&color=blueviolet&style=flat-square)
 
