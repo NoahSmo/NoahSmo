@@ -12,13 +12,13 @@
 
 
 #### <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/512/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-color-tal-revivo.png" height="25"/> HTML
-#### <img src="https://img.icons8.com/fluency/512/css3.png" height="25"/> CSS
+#### <img src="https://img.icons8.com/fluency/512/css3.png" height="15"/> CSS
 
 
-#### <img src="https://img.icons8.com/ios-filled/512/php-logo.png" height="25"/> PHP
-#### <img src="https://img.icons8.com/fluency/512/laravel.png" height="25"/> Laravel
+#### <img src="https://img.icons8.com/ios-filled/512/php-logo.png" height="15"/> PHP
+#### <img src="https://img.icons8.com/fluency/512/laravel.png" height="20"/> Laravel
 
-#### <img src="https://img.icons8.com/color/512/python--v1.png" height="25"/> Python
+#### <img src="https://img.icons8.com/color/512/python--v1.png" height="20"/> Python
 
 
 
