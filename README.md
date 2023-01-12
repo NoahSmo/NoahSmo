@@ -1,4 +1,4 @@
-### <img src="https://img.icons8.com/nolan/512/google-code.png" height="20"/> Hello there, my name is Noah
+# <img src="https://img.icons8.com/nolan/512/google-code.png" height="20"/> Hello there, my name is Noah
 
 ![](https://komarev.com/ghpvc/?username=noahsmo&color=blueviolet&style=flat-square)
 
@@ -6,14 +6,14 @@
 
 <p> ✨ I'm making games on my free time ✨</p>
 
-### 💻 Main Technos
+## 💻 Main Technos
 
-# <img src="https://icones8.fr/icon/55205/c-sharp-logo" height="25"/> C#
+#### <img src="https://icones8.fr/icon/55205/c-sharp-logo" height="25"/> C#
 
-# <img src="https://icones8.fr/icon/Rc0Xn5AtE8kX/python" height="25"/> Python
+#### <img src="https://icones8.fr/icon/Rc0Xn5AtE8kX/python" height="25"/> Python
 
-# <img src="https://icones8.fr/icon/Rc0Xn5AtE8kX/python" height="25"/> Php
-# <img src="https://icones8.fr/icon/Rc0Xn5AtE8kX/python" height="25"/> Laravel
+#### <img src="https://icones8.fr/icon/Rc0Xn5AtE8kX/python" height="25"/> Php
+#### <img src="https://icones8.fr/icon/Rc0Xn5AtE8kX/python" height="25"/> Laravel
 
 
 
