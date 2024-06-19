@@ -1,6 +1,6 @@
 # 💫 About Me:
 👋 Hello there, I'm Noah, a French developer<br>
-💻 Currently working at N'ine as a C# and VueJs Dev<br>
+💻 Currently working at Wesur as a JavaScript / Flutter Flow / IA (Python) Developer<br>
 ✨ I'm making games on my free time ✨
 
 
