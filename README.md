@@ -7,9 +7,23 @@
   <img src="https://komarev.com/ghpvc/?username=NoahSmo&style=flat-square&color=0d1117&label=visitors" alt="Profile views">
 </p>
 
-```console
-noah@rouen ~ % ls -l ~/projects --featured
+<p align="center"><sub>▸ click a command to run it</sub></p>
+
+<details>
+<summary><code>noah@rouen ~ % <b>cat about.txt</b></code></summary>
+
+```text
+› Noah — French developer based in Rouen 🇫🇷
+› Next.js & Python (AI) developer @ Wesur
+› building native macOS apps in Swift after hours — notch widgets, menu bar tools
+› making games in my free time
 ```
+
+</details>
+
+<details>
+<summary><code>noah@rouen ~ % <b>ls -l ~/projects --featured</b></code></summary>
+<br>
 
 <table>
   <tr>
@@ -36,9 +50,10 @@ brew install --cask noahsmo/tap/hiddenbar
   </tr>
 </table>
 
-```console
-noah@rouen ~ % cat ~/.stack.yml
-```
+</details>
+
+<details>
+<summary><code>noah@rouen ~ % <b>cat ~/.stack.yml</b></code></summary>
 
 ```yaml
 languages:  [Python, JavaScript, Swift, C#]
@@ -47,16 +62,44 @@ databases:  [PostgreSQL, MongoDB, MySQL]
 currently:  "AI with Python @ Wesur · macOS apps after hours"
 ```
 
-```console
-noah@rouen ~ % git log --author=NoahSmo --stat
-```
+</details>
+
+<details>
+<summary><code>noah@rouen ~ % <b>git log --author=NoahSmo --stat</b></code></summary>
+<br>
 
 <p>
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=NoahSmo&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=7ee787&text_color=c9d1d9&icon_color=79c0ff" alt="GitHub stats">
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoahSmo&layout=compact&hide_border=true&bg_color=0d1117&title_color=7ee787&text_color=c9d1d9" alt="Top languages">
 </p>
 
-```console
-noah@rouen ~ % exit
+</details>
+
+<details>
+<summary><code>noah@rouen ~ % <b>open contact</b></code></summary>
+
+```text
+→ linkedin   https://linkedin.com/in/noah-smo
+→ github     https://github.com/NoahSmo
+```
+
+</details>
+
+<details>
+<summary><code>noah@rouen ~ % <b>sudo hire noah</b></code></summary>
+
+```text
+[sudo] password for visitor: ********
+Permission granted ✔  — let's talk on LinkedIn 👋
+```
+
+</details>
+
+<details>
+<summary><code>noah@rouen ~ % <b>exit</b></code></summary>
+
+```text
 [Process completed] — thanks for stopping by ✨
 ```
+
+</details>
