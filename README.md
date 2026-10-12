@@ -1,68 +1,62 @@
-<h1 align="center">Hey, I'm Noah 👋</h1>
- 
 <p align="center">
-  French developer based in Rouen · Next.js & Python (AI) at <b>Wesur</b> · building native macOS tools & games on the side
+  <img src="./terminal.svg" width="100%" alt="noah@rouen ~ % whoami — Noah, French developer · Next.js & Python (AI) @ Wesur">
 </p>
+
 <p align="center">
-  <a href="https://linkedin.com/in/noah-smo"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <img src="https://komarev.com/ghpvc/?username=NoahSmo&style=flat&color=555&label=profile+views" alt="Profile views">
+  <a href="https://linkedin.com/in/noah-smo"><img src="https://img.shields.io/badge/linkedin-noah--smo-0d1117?style=flat-square&logo=linkedin&logoColor=7ee787&labelColor=161b22" alt="LinkedIn"></a>
+  <img src="https://komarev.com/ghpvc/?username=NoahSmo&style=flat-square&color=0d1117&label=visitors" alt="Profile views">
 </p>
----
- 
-### 🧑‍💻 About me
- 
-- 💼 Working at **Wesur** as a **Next.js / Python (AI)** developer
-- 🍎 Lately building small **native macOS apps in Swift** — notch widgets, menu bar utilities
-- 🎮 Making games in my free time
-- 🇫🇷 Based in Rouen, France
-### 🚀 Featured projects
- 
+
+```console
+noah@rouen ~ % ls -l ~/projects --featured
+```
+
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/NoahSmo/clawdio">🦀 Clawdio</a></h4>
+      <h3>📁 <a href="https://github.com/NoahSmo/clawdio">clawdio/</a></h3>
       <p>Your Claude Code quota and agent status, right in the Mac notch — with Clawd, a pixel-art mascot that reacts to what Claude is doing.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white" alt="Swift">
-        <img src="https://img.shields.io/badge/macOS_14+-000000?style=flat&logo=apple&logoColor=white" alt="macOS 14+">
-      </p>
-      <pre><code>brew install --cask NoahSmo/clawdio/clawdio</code></pre>
-    </td>
+      <p><code>swift</code> <code>appkit</code> <code>swiftui</code> <code>macos 14+</code></p>
+
+```sh
+brew install --cask NoahSmo/clawdio/clawdio
+```
+
+</td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/NoahSmo/HiddenBar">🫥 HiddenBar</a></h4>
-      <p>A lightweight, native Swift app to hide the menu bar icons you don't want to see on macOS. Install via Homebrew or grab the zip from Releases.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white" alt="Swift">
-        <img src="https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white" alt="macOS">
-      </p>
-    </td>
+      <h3>📁 <a href="https://github.com/NoahSmo/HiddenBar">HiddenBar/</a></h3>
+      <p>A lightweight, native Swift app that hides the menu bar icons you don't want to see on macOS.</p>
+      <p><code>swift</code> <code>macos</code> <code>menu bar</code></p>
+
+```sh
+brew install --cask noahsmo/tap/hiddenbar
+```
+
+</td>
   </tr>
 </table>
-### 🛠️ Tech stack
- 
-**Languages**<br>
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
- 
-**Frameworks & runtimes**<br>
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=for-the-badge&logo=swift&logoColor=white)
- 
-**Databases**<br>
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
- 
-### 📊 GitHub stats
- 
+
+```console
+noah@rouen ~ % cat ~/.stack.yml
+```
+
+```yaml
+languages:  [Python, JavaScript, Swift, C#]
+frameworks: [Next.js, Node.js, .NET, SwiftUI]
+databases:  [PostgreSQL, MongoDB, MySQL]
+currently:  "AI with Python @ Wesur · macOS apps after hours"
+```
+
+```console
+noah@rouen ~ % git log --author=NoahSmo --stat
+```
+
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=NoahSmo&show_icons=true&hide_border=true&theme=transparent&include_all_commits=true" alt="Noah's GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoahSmo&layout=compact&hide_border=true&theme=transparent" alt="Top languages">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=NoahSmo&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=7ee787&text_color=c9d1d9&icon_color=79c0ff" alt="GitHub stats">
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoahSmo&layout=compact&hide_border=true&bg_color=0d1117&title_color=7ee787&text_color=c9d1d9" alt="Top languages">
 </p>
----
- 
-<p align="center"><i>Thanks for stopping by — feel free to star a repo or reach out on LinkedIn ✨</i></p>
+
+```console
+noah@rouen ~ % exit
+[Process completed] — thanks for stopping by ✨
+```
